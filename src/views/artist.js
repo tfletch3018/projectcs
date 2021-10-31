@@ -14,6 +14,13 @@ function Artist() {
                         <h1 className="text-center">Artist</h1>
                     </Col>
                 </Row>
+                <Row>
+                    <div className="text-center">
+                        <Link to="/music">
+                        <button className="btn-view">Go Back</button>
+                        </Link>
+                    </div>
+                </Row>
             </Container>
 
             <Container fluid style={{ marginTop: 20 }}>
@@ -40,14 +47,6 @@ function Artist() {
                             </div>
                             <p className="music-card-text">Videos</p>
                         </div>
-                    </div>
-                </Row>
-
-                <Row>
-                    <div className="text-center">
-                        <Link to="/music">
-                        <button className="btn-view">Go Back</button>
-                        </Link>
                     </div>
                 </Row>
 
