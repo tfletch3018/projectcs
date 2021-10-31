@@ -1,0 +1,121 @@
+.footer {
+  bottom: 0;
+  background-color: transparent;
+}
+
+.footer span {
+  position:fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 0;
+  padding: 3px;
+  background:transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+
+#allFoot {
+  color: var(--royal);
+  text-shadow: 1.5px 1.5px 1.5px var(--whitegold);
+  font-size: 20px;
+  padding: 70px 0px 50px 20px;
+}
+
+#allFoot:hover {
+  color: var(--sky) ;
+  text-shadow: 1.5px 1.5px 1.5px var(--royal);
+  font-size: 20px;
+  padding: 70px 0px 50px 20px;
+}
+
+#thatFoot {
+  color: var(--yellow);
+  text-shadow: 1.5px 1.5px 1.5px var(--blush);
+  font-size: 20px;
+  padding: 70px 0px 50px 50px;
+}
+
+#thatFoot:hover {
+  color: var(--palegold);
+  text-shadow:1.5px 1.5px 1.5px var(--yellow);
+  font-size: 20px;
+  padding: 70px 0px 50px 50px;
+}
+
+#chazFoot {
+  color: var(--fire);
+  text-shadow: 1.5px 1.5px 1.5px var(--sky);
+  font-size: 20px;
+  padding: 70px 0px 50px 95px;
+}
+
+/* #chazFoot:hover {
+  color: var(--palepink);
+  text-shadow:1.5px 1.5px 1.5px var(--fire);
+  font-size: 20px;
+  padding: 70px 0px 50px 95px;
+} */
+
+#allFa {
+  color: var(--royal);
+  text-shadow: 1px 1px var(--sky);
+  font-size: 20px;
+}
+
+#allFa:hover {
+  color: var(--sky);
+  text-shadow: 1px 1px var(--royal);
+  background-color: none;
+}
+
+#thatFa {
+  color: var(--yellow);
+  text-shadow: 1px 1px var(--palegold);
+  font-size: 20px;
+}
+
+#thatFa:hover {
+  color: var(--palegold);
+  text-shadow: 1px 1px var(--yellow);
+  font-size: 20px;
+}
+
+#chazFa {
+  color: var(--fire);
+  text-shadow: 1px 1px var(--palepink);
+  font-size: 20px;
+}
+
+#chazFa:hover {
+  color: var(--palepink);
+  text-shadow: 1px 1px var(--fire);
+  font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.styled2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size:40px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.styled2:hover {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.styled2:active {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.styled2:focus {
+  text-decoration: none;
+}

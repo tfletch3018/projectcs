@@ -1,0 +1,338 @@
+:root {
+  --sea:#e6ffe6;
+  --thinMint:#E3F7D4;
+  --mint:#99ffcc;
+  --forest:#004d26;
+  --green: #009933;
+  --palepink: #ffe6e6;
+  --blush:#ffccff;
+  --rose:#ff9999;
+  --raspberrySorbet:#d2386c;
+  --fire:#ff0000;
+  --rusty:#b30000;
+  --palegold:#fffbe6;
+  --marigold:#ffe4b3;
+  --cornsilk: #ffffb3;
+  --whitegold:#ffff80;
+  --yellow:#ffff1a;
+  --illuminating:#f5df4d;
+  --gold:#ffd700;
+  --orange:#ffa500;
+  --pale:#ffffff;
+  --sky:#b3daff;
+  --cerulean:#9bb7d4;
+  --royal:#0066ff;
+  --navy: #000080;
+  --greenAsh:#a0daa9;
+  --thistle:#EFD4F7;
+  --lilac:#e6e6ff;
+  --lavender:#ccb3ff;
+  --orchid:#ccccff;
+  --amethystOrchid: #926aa6;
+  --violet: #7733ff;
+  --purple:#990099;
+  --sand:#F7E9D4;
+  --beige:#ffe6cc;
+  --mist: #cccccc;
+  --fog: #bfbfbf;
+  --misty:#999999;
+  --slate:#413f3f;
+  --smoke:#404040;
+  --dark:#000000;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--dark);
+  padding: 0;
+}
+
+html body {
+  background-color: rgba(0,0,0,1.00);
+  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home {
+  background-color: var(--dark);
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./images/homepage2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  margin: 0.625rem;
+  left: 360px;
+  bottom:40px;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.host {
+  background-color: var(--dark);
+}
+
+.film {
+  background-color: var(--dark);
+}
+
+.music {
+  background-color: var(--dark);
+}
+
+.improvement {
+  background-color: var(--dark);
+}
+
+.container ul {
+  margin: 0;
+}
+
+h1 {
+  color: var(--pale);
+  text-shadow: 1.5px 1.5px 1.5px var(--royal);
+  font-size: 1rem;
+}
+
+h1:hover {
+  color: var(--pale);
+  text-shadow: 1.5px 1.5px 1.5px var(--yellow);
+  font-size: 25px;
+}
+
+h1:focus {
+  color: var(--pale);
+  text-shadow: 1.5px 1.5px 1.5px var(--fire);
+  font-size: 25px;
+}
+
+#all {
+/* color: var(--sky);
+text-shadow: 14px 0px 14px var(--royal);    */
+  color: var(--royal);
+  text-shadow: 4px 4px 4px var(--whitegold);
+  font-size: 100px;
+}
+
+#all:hover {
+  color: var(--sky);
+  text-shadow: 14px 0px 14px var(--royal);
+  font-size: 100px;
+}
+
+#that {
+  /* color: var(--palegold);
+text-shadow: 14px 0px 14px var(--yellow);   */
+  color: var(--yellow);
+  text-shadow: 4px 4px 4px var(--blush);
+  font-size: 100px;
+}
+
+#that:hover {
+  color: var(--palegold);
+  text-shadow: 14px 0px 14px var(--yellow);
+  font-size: 100px;
+}
+
+#chaz {
+  /* color: var(--blush);
+text-shadow: 14px 0px 14px var(--fire);   */
+  color: var(--fire);
+  text-shadow: 4px 4px 4px var(--sky);
+  font-size: 100px;
+}
+
+#chaz:hover {
+  color: var(--palepink);
+  text-shadow: 14px 0px 14px var(--fire);
+  font-size: 100px;
+}
+
+.foot {
+  color:var(--fog);
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.music-card {
+  border-radius: 10px;
+  border-color: var(--forest);
+  background: linear-gradient(to bottom, var(--lilac), var(--beige));
+  box-shadow: 6px 6px 6px 6px var(--slate), 0 6px 6px var(--misty);
+  height: 400px;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.music-card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 2.25rem;
+  padding-top: 4.25rem;
+  padding-right: 2.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.music-card-footer {
+  padding: .75rem 1.25rem;
+  padding-top: 3.75rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  background-color: rgba(0,0,0,.03);
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.music-card-title {
+color: var(--orchid);
+font-weight: bolder;
+font-size: 24px;
+text-shadow: 2px 2px var(--forest);
+}
+
+.music-card-text {
+color: var(--orchid);
+font-weight: bolder;
+font-size: 14px;
+text-shadow: 2px 2px var(--forest);
+}
+
+.artist-card {
+  border-radius: 10px;
+  border-color: var(--forest);
+  background: linear-gradient(to bottom, var(--lilac), var(--beige));
+  box-shadow: 6px 6px 6px 6px var(--mist), 0 6px 6px var(--smoke);
+  height: 400px;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.artist-card:hover {
+  border-radius: 10px;
+  border-color: var(--forest);
+  background: linear-gradient(to bottom, var(--lilac), var(--beige));
+  box-shadow: 6px 6px 6px 6px var(--yellow), 0 6px 6px var(--marigold);
+  height: 400px;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.row {
+justify-content: space-around;
+}
+
+.btn-view {
+background-color: var(--orchid);
+box-shadow: inset 0px 0px 8px var(--smoke), 0 0 15px var(--orchid);
+color: var(--pale);
+font-weight: 500;
+}
+
+.btn-view:hover {
+background-color: var(--smoke);
+box-shadow: inset 0px 0px 8px var(--smoke), 0 0 15px var(--orchid);
+color: var(--lilac);
+text-shadow: 1px 1px var(--pale);
+}
+
+/*font options for approval*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.styled3 {  
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size:50px;
+  font-weight: 700;
+  color: var(--royal);
+  text-shadow: 2px 2px 2px var(--palegold);
+  text-decoration: none;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+.styled3:hover {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size:50px;
+  font-weight: 700;
+  color: var(--navy);
+  text-shadow: 2px 2px 2px var(--palegold);
+  text-decoration: none;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+.styled4 {
+  font-family: 'Bungee Outline', cursive;
+  font-size:34px;
+  font-weight: 700;
+  color: var(--blush);
+  text-shadow: 1px 1px 1px var(--fire);
+  text-decoration: none;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+.styled4:hover {
+  font-family: 'Bungee Outline', cursive;
+  font-size:34px;
+  font-weight: 700;
+  color: var(--sky);
+  text-shadow: 2px 2px 2px var(--royal);
+  text-decoration: none;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+.styled7 {
+  font-family: 'Diplomata SC', cursive;
+  font-size:34px;
+  font-weight: 700;
+  color: var(--marigold);
+  text-shadow: 1px 1px 1px var(--orange);
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+.styled7:hover {
+  font-family: 'Diplomata SC', cursive;
+  font-size:34px;
+  font-weight: 700;
+  color: var(--sky);
+  text-shadow: 2px 2px 2px var(--royal);
+  text-decoration: none;  
+}
