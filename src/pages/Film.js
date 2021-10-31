@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function Film() {
     return (
         <div className="film">
-            <Container fluid style={{ marginTop: 150 }}>
+            <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="styled4 text-center">Acting Up...</h1>
@@ -15,9 +15,8 @@ function Film() {
                 </Row>
             </Container>
 
-            <Container>
+            <Container fluid style={{ marginTop: 20 }}>
                 <Row>
-
                     <div className="music-card text-center" style={{ width: "25rem" }}>
                         <div className="music-card-body">
                             <h5 className="music-card-title">Resume</h5>
@@ -57,7 +56,6 @@ function Film() {
 
             </Container>
         </div>
-
     )
 }
 

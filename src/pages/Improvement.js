@@ -9,7 +9,7 @@ import "../index.css";
 function Improvement() {
     return (
         <div className="improvement">
-            <Container fluid style={{ marginTop: 150 }}>
+            <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="styled3 text-center">Improvement Movement...</h1>
@@ -17,7 +17,7 @@ function Improvement() {
                 </Row>
             </Container>
 
-            <Container>
+            <Container fluid style={{ marginTop: 20 }}>
                 <Row>
                     <div className="music-card text-center" style={{ width: "25rem" }}>
                         <div className="music-card-body">

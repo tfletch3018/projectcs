@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function Music() {
     return (
         <div className="music">
-            <Container fluid style={{ marginTop: 150 }}>
+            <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="styled3 text-center">Music Man...</h1>
@@ -15,8 +15,7 @@ function Music() {
                 </Row>
             </Container>
 
-            <Container>
-
+            <Container fluid style={{ marginTop: 20 }}>
                 <Row>
                     <div className="music-card text-center" style={{ width: "25rem" }}>
                         <div className="music-card-body">

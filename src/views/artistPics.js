@@ -8,7 +8,7 @@ import "../index.css";
 function artistPics() {
     return (
         <div className="music">
-            <Container fluid style={{ marginTop: 100 }}>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="text-center">Pics</h1>
