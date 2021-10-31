@@ -8,7 +8,7 @@ import "../index.css";
 function Artist() {
     return (
         <div className="music">
-            <Container fluid style={{ marginTop: 150 }}>
+            <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="text-center">Artist</h1>
@@ -16,7 +16,7 @@ function Artist() {
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 55 }}>
+            <Container fluid style={{ marginTop: 20 }}>
                 <Row>
                     <div className="music-card text-center" style={{ width: "25rem" }}>
                         <div className="music-card-body">
