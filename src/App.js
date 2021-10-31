@@ -5,7 +5,6 @@ import Film from "./pages/Film";
 import Music from "./pages/Music";
 import Host from "./pages/Host";
 import Improvement from "./pages/Improvement";
-import Social from "./pages/Social";
 import Artist from "./views/artist";
 import Production from "./views/production";
 import daBauls from "./views/daBauls";
@@ -31,7 +30,6 @@ function App() {
         <Route exact path="/music" component={Music} />
         <Route exact path="/host" component={Host} />
         <Route exact path="/improvement" component={Improvement} />
-        <Route exact path="/social" component={Social} />
         <Route exact path="/music/artist" component={Artist} />
         <Route exact path="/music/production" component={Production} />
         <Route exact path="/music/daBauls" component={daBauls} />

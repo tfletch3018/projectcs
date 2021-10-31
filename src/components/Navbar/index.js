@@ -54,15 +54,6 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item">
-            <Link
-              to="/social"
-              className={window.location.pathname === "/social" ? "nav-link active" : "nav-link"}
-            >
-              Social Media
-            </Link>
-          </li>
-
         </ul>
       </div>
     </nav>
