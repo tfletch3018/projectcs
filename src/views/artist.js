@@ -4,7 +4,6 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../index.css";
-// import CarouselComponent from "../components/Carousel/index";
 
 function Artist() {
     return (
@@ -17,12 +16,7 @@ function Artist() {
                 </Row>
             </Container>
 
-            {/* <Container>
-                <CarouselComponent />
-            </Container> */}
-
-<Container fluid style={{ marginTop: 55 }}>
-
+            <Container fluid style={{ marginTop: 55 }}>
                 <Row>
                     <div className="music-card text-center" style={{ width: "25rem" }}>
                         <div className="music-card-body">

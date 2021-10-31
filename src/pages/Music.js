@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-// import YouTubeContainer from "../components/YouTube";
-// import music from "../images/music.jpg";
 
 function Music() {
     return (
@@ -53,18 +51,6 @@ function Music() {
                                 </Link>
                             </div>
                             <p className="music-card-text">Da Bauls</p>
-                        </div>
-                    </div>
-
-                    <div className="music-card text-center" style={{ width: "25rem" }}>
-                        <div className="music-card-body">
-                            <h5 className="music-card-title">Videos</h5>
-                            <div className="music-card-footer text-center">
-                                <Link to="/music/videos">
-                                    <button className="btn-view">Videos</button>
-                                </Link>
-                            </div>
-                            <p className="music-card-text">Videos</p>
                         </div>
                     </div>
                 </Row>

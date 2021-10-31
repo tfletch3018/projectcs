@@ -7,9 +7,9 @@ import Host from "./pages/Host";
 import Improvement from "./pages/Improvement";
 import Artist from "./views/artist";
 import artistPics from "./views/artistPics";
+import artistVids from "./views/artistVids";
 import Production from "./views/production";
 import daBauls from "./views/daBauls";
-import Videos from "./views/videos";
 import Resume from "./views/resume";
 import Reel from "./views/reel";
 import Clips from "./views/clips";
@@ -33,9 +33,9 @@ function App() {
         <Route exact path="/improvement" component={Improvement} />
         <Route exact path="/music/artist" component={Artist} />
         <Route exact path="/music/artist/pictures" component={artistPics} />
+        <Route exact path="/music/artist/videos" component={artistVids} />
         <Route exact path="/music/production" component={Production} />
         <Route exact path="/music/daBauls" component={daBauls} />
-        <Route exact path="/music/videos" component={Videos} />
         <Route exact path="/film/resume" component={Resume} />
         <Route exact path="/film/reel" component={Reel} />
         <Route exact path="/film/clips" component={Clips} />
