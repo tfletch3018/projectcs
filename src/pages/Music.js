@@ -37,7 +37,7 @@ function Music() {
                             <h5 className="music-card-title">Producer Composer</h5>
                             <div className="music-card-footer text-center">
                                 <Link to="/music/production">
-                                    <button className="btn-view">Production</button>
+                                    <button className="btn-view">Producer Composer</button>
                                 </Link>
                             </div>
                             <p className="music-card-text">Have Chaz produce for you</p>
