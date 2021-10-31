@@ -41,13 +41,17 @@ function Artist() {
                             <p className="music-card-text">Videos</p>
                         </div>
                     </div>
+                </Row>
 
-
+                <Row>
+                    <div className="text-center">
+                        <Link to="/music">
+                        <button className="btn-view">Go Back</button>
+                        </Link>
+                    </div>
                 </Row>
 
             </Container>
-
-
 
         </div>
     );
