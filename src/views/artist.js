@@ -1,24 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../index.css";
-// import Gallery from "../components/Gallery/gallery";
-import CarouselComponent from "../components/Carousel/index";
-// import artist11 from "../images/artist11.jpeg";
-// import artist12 from "../images/artist12.jpeg";
-// import artist13 from "../images/artist13.jpg";
-// import artist14 from "../images/artist14.jpg";
-// import artist15 from "../images/artist15.jpg";
-// import artist16 from "../images/artist16.jpg";
-// import artist17 from "../images/artist17.jpg";
-// import artist18 from "../images/artist18.jpg";
-// import artist19 from "../images/artist19.jpg";
+// import CarouselComponent from "../components/Carousel/index";
 
 function Artist() {
     return (
         <div className="music">
-            <Container fluid style={{ marginTop: 55 }}>
+            <Container fluid style={{ marginTop: 150 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="text-center">Artist</h1>
@@ -26,74 +17,43 @@ function Artist() {
                 </Row>
             </Container>
 
-            
-            <Container>
+            {/* <Container>
                 <CarouselComponent />
+            </Container> */}
+
+<Container fluid style={{ marginTop: 55 }}>
+
+                <Row>
+                    <div className="music-card text-center" style={{ width: "25rem" }}>
+                        <div className="music-card-body">
+                            <h5 className="music-card-title">Pictures</h5>
+                            <div className="music-card-footer text-center">
+                                <Link to="/music/artist/pictures">
+                                    <button className="btn-view">Pictures</button>
+                                </Link>
+                            </div>
+                            <p className="music-card-text">Pictures</p>
+                        </div>
+                    </div>
+
+                    <div className="music-card text-center" style={{ width: "25rem" }}>
+                        <div className="music-card-body">
+                            <h5 className="music-card-title">Videos</h5>
+                            <div className="music-card-footer text-center">
+                                <Link to="/music/artist/videos">
+                                    <button className="btn-view">Videos</button>
+                                </Link>
+                            </div>
+                            <p className="music-card-text">Videos</p>
+                        </div>
+                    </div>
+
+
+                </Row>
+
             </Container>
 
 
-            {/* <Container fluid style={{ marginTop: 20 }}>
-                <Gallery />
-            </Container> */}
-
-            {/* <Container>
-                <Row>
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist11})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist12})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist13})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist14})`
-                    }}>
-                    </div>
-                
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist19})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist18})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist17})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist15})`
-                    }}>
-                    </div>
-
-                    <div className="artist-card" style={{
-                        width: "25rem",
-                        backgroundImage: `url(${artist16})`
-                    }}>
-                    </div>
-
-                </Row>
-            </Container> */}
 
         </div>
     );
