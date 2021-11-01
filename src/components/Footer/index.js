@@ -14,8 +14,6 @@ function Footer() {
           <span className="styled2" id="thatFoot">That</span>
           <span className="styled2" id="chazFoot">Chaz</span></p>
 
-          {/* <p className="foot">All That Chaz 2021</p> */}
-
           <ul className="nav">
             <li className="nav-item">
               <a title="Visit TikTok profile"
