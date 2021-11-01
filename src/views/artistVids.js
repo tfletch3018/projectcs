@@ -5,7 +5,8 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import YouTubeContainer from "../components/YouTube";
 import "../index.css";
-import VideoPlayer from "../components/VideoPlayer";
+// import VideoPlayer from "../components/VideoPlayer";
+// import VideoPlayer2 from "../components/VideoPlayer2";
 
 function artistVids() {
     return (
@@ -27,15 +28,19 @@ function artistVids() {
 
                 <Container fluid style={{ marginTop: 20, marginBottom: 20 }}>
                 <Row>
+                <Col size="md-6">
+                    <p className="foot">How Does It Feel pviff awards</p>
+                        {/* <VideoPlayer2 /> */}
+                    </Col>
                     <Col size="md-6">
                         <p className="foot">We Will Breathe</p>
                         <YouTubeContainer />
                     </Col>
 
-                    <Col size="md-6">
+                    {/* <Col size="md-6">
                     <p className="foot">Demo Video</p>
                         <VideoPlayer />
-                    </Col>
+                    </Col> */}
                 </Row>
                 </Container>
 
