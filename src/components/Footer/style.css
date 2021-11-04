@@ -1,6 +1,8 @@
 .footer {
-  bottom: 0;
+  /* bottom: 0; */
   background-color: transparent;
+  flex: 0 0 50px;/*or just height:50px;*/
+  margin-top: auto;
 }
 
 .footer span {
