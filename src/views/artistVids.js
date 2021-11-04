@@ -11,7 +11,7 @@ import VideoPlayer2 from "../components/VideoPlayer2";
 function artistVids() {
     return (
         <div className="music">
-            <Container fluid style={{ marginTop: 50 }}>
+            <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <Col size="md-12">
                         <h1 className="text-center">Videos</h1>

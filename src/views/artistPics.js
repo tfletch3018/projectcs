@@ -9,7 +9,7 @@ import "../index.css";
 function artistPics() {
     return (
         <div className="music">
-            <Container fluid style={{ marginTop: 50 }}>
+            <Container fluid style={{ marginTop: 100 }}>
 
                 <Row>
                     <Col size="md-12">
