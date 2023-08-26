@@ -40,6 +40,7 @@ a.nav-link {
 a.nav-link:hover {
   color: var(--pale);
   text-shadow: 1.5px 1.5px 1.5px var(--gold);
+  background-color: transparent;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -48,6 +49,16 @@ a.nav-link:hover {
 a.nav-link:focus {
   color: var(--palepink);
   text-shadow: 1px 1px 1px var(--fire);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a.nav-link:active {
+  color: var(--pale);
+  text-shadow: 1.5px 1.5px 1.5px var(--gold);
+  background-color: transparent;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
